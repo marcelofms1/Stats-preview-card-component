@@ -1,0 +1,61 @@
+body{
+    font-family: 'Bellota Text', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#container{
+    background-color: hsl(244, 38%, 16%);
+    color:white;
+    /* padding:1.5em; */
+    border-radius:1em;
+    margin:1em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#image_area{
+    background-color: hsl(277, 61%, 48%);
+    height:38vh;
+    border-top-right-radius:1em;
+    border-top-left-radius:1em;
+
+}
+
+span{
+    color:hsl(277, 64%, 61%);
+}
+
+#main_img{
+    width:100%;
+    opacity:.3;
+    border-top-right-radius:1em;
+    border-top-left-radius:1em;
+}
+
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    padding-left:1em;
+    padding-right:1em;
+}
+
+h1{
+    padding-left:1em;
+    padding-right:1em;
+}
+
+.bold_text{
+    font-size: 25px;
+    font-weight: 700;
+    color:white;
+}
+
+.stats{
+    color:hsla(0, 0%, 100%, 0.6);
+}
